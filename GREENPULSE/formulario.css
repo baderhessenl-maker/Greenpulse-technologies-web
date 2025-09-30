@@ -1,0 +1,103 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f0eb;
+  color: #205322;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #205322;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  background-color: #2e7d32;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.formulario {
+  background-color: #f1f8e9;
+  padding: 40px;
+  max-width: 500px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.formulario h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+form input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #388e3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #2e7d32;
+}
+
+.boton-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.boton-regresar {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6d4c41;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.boton-regresar:hover {
+  background-color: #4e342e;
+}

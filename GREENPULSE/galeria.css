@@ -1,0 +1,126 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f0eb;
+    color: #205322;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #205322;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    background-color: #2e7d32;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .seccion-flex {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  body {
+    background: #ffffff;
+    margin: 0;
+    font-family: monospace;
+  }
+  
+  h1 {
+    color: #fff;
+    text-align: center;
+  }
+  
+  /Estilos de la galeria/
+  
+  body {
+    background-color: #311650;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-galeria {
+    display: grid;
+    place-items: center;
+    width: 150px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    max-width: 400px;
+}
+
+.contenedor-imagen {
+    position: relative;
+    left: 0;
+    width: 80px;
+    border-radius: 5px;
+    height: 150px;
+    overflow: hidden;
+    background-color: #efefef;
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 5px 12px rgb(0, 0, 0, 0.5);
+    flex: 0.25;
+}
+
+.contenedor-imagen img {
+    height: 100px;
+    width: 50px;
+    object-fit: cover;
+}
+
+.contenedor-imagen:hover {
+    flex: 2;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+.boton-container {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .boton-regresar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6d4c41; /* café claro */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }

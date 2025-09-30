@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f0eb;
+  color: #205322;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #205322;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  background-color: #2e7d32;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.contacto {
+  padding: 40px;
+}
+
+.contacto h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.redes {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: auto;
+}
+
+.redes li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 150px;
+  border-bottom: 1px solid #7f5b18;
+}
+
+.icono-red {
+  width: 90px;
+  height: 90px;
+}
+
+.espacio {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.boton-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.boton-regresar {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6d4c41;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.boton-regresar:hover {
+  background-color: #4e342e;
+}
